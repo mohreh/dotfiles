@@ -19,11 +19,12 @@ local logout_menu_widget =
 	wibox.widget {
 	{
 		{
-			image = ICON_DIR .. 'power_w.svg',
-			resize = true,
-			widget = wibox.widget.imagebox
+			-- image = ICON_DIR .. 'power_w.svg',
+			-- resize = true,
+			markup = '',
+			widget = wibox.widget.textbox
 		},
-		margins = 4,
+		margins = 0,
 		layout = wibox.container.margin
 	},
 	shape = function(cr, width, height)

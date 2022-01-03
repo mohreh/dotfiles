@@ -2,14 +2,15 @@ local gears = require('gears')
 local awful = require('awful')
 local beautiful = require('beautiful')
 local hotkeys_popup = require('awful.hotkeys_popup')
-local keyboard_layout = require('modules.keyboard_layout')
 require('awful.hotkeys_popup.keys')
 
-local kbdcfg = keyboard_layout.kbdcfg({type = 'tui'})
+-- {{{ Widgets
+local widgets = require('widgets')
 
-kbdcfg.add_primary_layout('English', 'US', 'us')
-kbdcfg.add_primary_layout('Persian', 'IR', 'ir')
-kbdcfg.bind()
+local kbdcfg = widgets.kbdcfg
+local volume = widgets.volume
+local mpd = widgets.mpd
+-- }}}
 
 -- {{{ Mouse bindings
 root.buttons(
@@ -262,6 +263,8 @@ globalkeys =
 		'XF86AudioRaiseVolume',
 		function()
 			awful.util.spawn('amixer sset Master 5%+')
+			volume.update()
+			volume.notify()
 		end,
 		{description = 'Raise Volume', group = 'Sound'}
 	),
@@ -270,6 +273,8 @@ globalkeys =
 		'XF86AudioLowerVolume',
 		function()
 			awful.util.spawn('amixer sset Master 5%-')
+			volume.update()
+			volume.notify()
 		end,
 		{description = 'Decrease Volume', group = 'Sound'}
 	),
@@ -278,6 +283,7 @@ globalkeys =
 		'XF86AudioRaiseVolume',
 		function()
 			awful.util.spawn('mpc volume +5')
+			mpd.update()
 		end,
 		{description = 'Raise Volume', group = 'Sound'}
 	),
@@ -286,6 +292,7 @@ globalkeys =
 		'XF86AudioLowerVolume',
 		function()
 			awful.util.spawn('mpc volume -5')
+			mpd.update()
 		end,
 		{description = 'Decrease Volume', group = 'Sound'}
 	),
@@ -294,6 +301,7 @@ globalkeys =
 		'XF86AudioNext',
 		function()
 			awful.util.spawn('mpc next')
+			mpd.update()
 		end,
 		{description = 'Next track', group = 'Sound'}
 	),
@@ -302,6 +310,7 @@ globalkeys =
 		'XF86AudioPrev',
 		function()
 			awful.util.spawn('mpc prev')
+			mpd.update()
 		end,
 		{description = 'Prev track', group = 'Sound'}
 	),
@@ -310,6 +319,7 @@ globalkeys =
 		'XF86AudioPlay',
 		function()
 			awful.util.spawn('mpc play')
+			mpd.update()
 		end,
 		{description = 'play track', group = 'Sound'}
 	),
@@ -318,6 +328,7 @@ globalkeys =
 		'XF86AudioStop',
 		function()
 			awful.util.spawn('mpc pause')
+			mpd.update()
 		end,
 		{description = 'pause track', group = 'Sound'}
 	)
