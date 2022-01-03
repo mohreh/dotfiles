@@ -7,13 +7,11 @@ return function(s)
 	return awful.widget.taglist {
 		screen = s,
 		filter = awful.widget.taglist.filter.all,
-		buttons = {
+		buttons = gears.table.join(
 			awful.button(
 				{},
 				1,
 				function(t)
-					
-
 					t:view_only()
 				end
 			),
@@ -50,7 +48,8 @@ return function(s)
 					awful.tag.viewprev(t.screen)
 				end
 			)
-		},
+		),
+		
 		layout = {
 			spacing = 4,
 			layout = wibox.layout.fixed.horizontal
