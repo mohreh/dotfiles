@@ -2,10 +2,15 @@ local awful = require 'awful'
 local beautiful = require 'beautiful'
 local gears = require 'gears'
 local wibox = require 'wibox'
-local keyboard_layout = require('modules.keyboard_layout')
-local kbdcfg = keyboard_layout.kbdcfg({type = 'tui'})
 
 local dpi = beautiful.xresources.apply_dpi
+
+-- {{{ Widgets
+local logout = require('bar.widgets.logout-menu')
+
+local keyboard_layout = require('modules.keyboard_layout')
+local kbdcfg = keyboard_layout.kbdcfg({type = 'tui'})
+-- }}}
 
 kbdcfg.add_primary_layout('English', 'US', 'us')
 kbdcfg.add_primary_layout('Persian', 'IR', 'ir')
@@ -222,13 +227,14 @@ awful.screen.connect_for_each_screen(
 				wibox.layout.margin(s.taglist, dpi(3), dpi(10), dpi(3), dpi(3)),
 				wibox.layout.margin(s.tasklist, dpi(2), dpi(10), dpi(2), dpi(2))
 			},
-			require('widgets.calendar').create(s),
+			require('bar.widgets.calendar').create(s),
 			{
 				layout = wibox.layout.fixed.horizontal,
 				wibox.layout.margin(wibox.widget.systray(), dpi(5), dpi(5), dpi(0), dpi(0)),
 				-- require('widgets.bluetooth'),
 				wibox.layout.margin(kbdcfg.widget, dpi(5), dpi(5), dpi(3), dpi(3)),
-				wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(3), dpi(3))
+				wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(4), dpi(4)),
+				wibox.layout.margin(logout(), dpi(5), dpi(5), dpi(0), dpi(0))
 			}
 		}
 		-- s.panel =

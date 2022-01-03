@@ -1,0 +1,9 @@
+[submodule "awesome/awesome/modules/bling"]
+	path = awesome/awesome/modules/bling
+	url = https://github.com/BlingCorp/bling.git
+[submodule "awesome/modules/bling"]
+	path = awesome/modules/bling
+	url = https://github.com/BlingCorp/bling.git
+[submodule "awesome/modules/keyboard_layout"]
+	path = awesome/modules/keyboard_layout
+	url = https://github.com/echuraev/keyboard_layout.git
