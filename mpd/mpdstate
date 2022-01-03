@@ -1,0 +1,348 @@
+sw_volume: 60
+audio_device_state:1:pulse audio
+state: play
+current: 233
+time: 120.058000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Afshin-Moghadam-Gozahteh-128.mp3
+1:Rushid-Khorshid-Khanoom-128.mp3
+2:Leila-Forouhar-Pardis-128.mp3
+3:Delkash Larzoon Larzoon.mp3
+4:Sattar-Taak-Khal-128.mp3
+5:Aref-Na-Mehraban-128.mp3
+6:Aref-Behtarin-Bahaneh-128.mp3
+7:Aref_Soltane-Ghalbha.mp3
+8:Mohammad-Noori-Jomeh-Bazar-128.mp3
+9:Jahan-Khatoon-128.mp3
+10:Marjan-Tanha-128.mp3
+11:Ali-Danial-Ba-Cheshmat-128.mp3
+12:Khalegh.mp3
+13:Shamaizadeh-Cheshm-o-Abroo-128.mp3
+14:Siavash-Ghomayshi-Rooze-Barfi-128.mp3
+15:Hayedeh Padeshahe Khooban.mp3
+16:Mansour-Eshghe-Aatashi-128.mp3
+17:Mansour-Only-for-You-(Faghat-Bekhatere-Tou)-128.mp3
+18:Hayedeh-Mahasti-Dele-Koocholo-(Ft-Anoushirvan-Rohani)-128.mp3
+19:Martik-Faghat-Yekbaar-128.mp3
+20:08 Tanha.mp3
+21:04 Nargese Shiraz.mp3
+22:Davood Behboodi Yare Bala Boland.mp3
+23:Kouros-Dokhtare-Hamsayeh-128.mp3
+24:Mohammad Esfahani - Shekayate Hejran (128).mp3
+25:Manoochehr-Khanoomi-128.mp3
+26:Mahasti-Kami-Ba-Man-Modara-Kon-128.mp3
+27:Moein-Bigharar-128.mp3
+28:The-Boyz-Bigharar-128.mp3
+29:DJ MFIX Shamaizadeh Mix.mp3
+30:Hala-Khali-Blash-128.mp3
+31:Martik Parandeh.mp3
+32:Shohreh Cheh Konam.mp3
+33:Shohreh-Agha-128.mp3
+34:Martik Harir.mp3
+35:Siavash Shams Ghahr O Aashti.mp3
+36:Suzan-Ghomar-Baz-128.mp3
+37:Fereydoun Gole Hayahoo.mp3
+38:Donya-Ghalb(320).mp3
+39:Black-Cats-Man-O-Del-128.mp3
+40:Marzieh Emshab Shabe Mahtabe Live in Olympia.mp3
+41:Aline Khalaf - wala wala kan.mp3
+42:Naser-Abdollahi-Nasseria-128.mp3
+43:Nooshafarin-Yavash-Yavash-128.mp3
+44:Shahram Solati Divooneh Bazar.mp3
+45:Alireza-Azar-Dayereh-128.mp3
+46:09- Bandari.mp3
+47:Hayede Shabe Eshgh.mp3
+48:03 Daro Va Kon Azizam.mp3
+49:Mohammad-Esfahani-Maro-Ey-Doost-128.mp3
+50:Shamaizadeh-Ba-To-Bidar-Misham-128.mp3
+51:Mahasti-Zendegi.mp3
+52:Khaste.mp3
+53:Shakila-Ghame-Yar-128.mp3
+54:Dariush Tekieh Bar Baad.mp3
+55:Googoosh-Kaj-Kolaah-Khaan-128.mp3
+56:Googoosh-Hejrat-128.mp3
+57:Arash-Vala-Yadeteh-128.mp3
+58:Shadmehr-Aghili-Mano-To-128.mp3
+59:Mahasti-To-Bezan-Ta-Man-Beraghsam-128.mp3
+60:Hayedeh-Vafayeh-Del-128.mp3
+61:Hayedeh-Shabeh-Eshgh-128.mp3
+62:Farhad-Saghf-128.mp3
+63:Shahrokh - Parishoon.mp3
+64:She Ba He - Kie Kie (128).mp3
+65:Moein-Ghasam-Nakhor-128.mp3
+66:IMG_8626.MP4
+67:Donya-Tamoom-Shod-Raft-(320).mp3
+68:Donya-Koo-Ta-Biad.mp3
+69:Donya-Jaye-Hamegi-Khali.mp3
+70:Donya-Dardesar.mp3
+71:Donya-Baroon-Ke-Mibareh.mp3
+72:Donya-Badi-Baram.mp3
+73:Donya-Az-In-Shahr-Boro.mp3
+74:CQADBAADrAIAAvN8QFNmX--zWzjp4gI.mp3
+75:Aref_Soltane-Ghalbha.mp3
+76:Hala-Khali-Blash-128.mp3
+77:Naser-Abdollahi-Nasseria-128.mp3
+78:CQADBAADrAIAAvN8QFNmX--zWzjp4gI.mp3
+79:Dariush Tekieh Bar Baad.mp3
+80:Mohammad-Esfahani-Maro-Ey-Doost-128.mp3
+81:Hayedeh-Mahasti-Dele-Koocholo-(Ft-Anoushirvan-Rohani)-128.mp3
+82:Aref-Behtarin-Bahaneh-128.mp3
+83:Manoochehr-Khanoomi-128.mp3
+84:Shadmehr-Aghili-Mano-To-128.mp3
+85:Mahasti-To-Bezan-Ta-Man-Beraghsam-128.mp3
+86:04 Nargese Shiraz.mp3
+87:09- Bandari.mp3
+88:Mansour-Eshghe-Aatashi-128.mp3
+89:Aline Khalaf - wala wala kan.mp3
+90:Moein-Bigharar-128.mp3
+91:Mohammad-Noori-Jomeh-Bazar-128.mp3
+92:Shamaizadeh-Cheshm-o-Abroo-128.mp3
+93:Aref-Na-Mehraban-128.mp3
+94:Mansour-Only-for-You-(Faghat-Bekhatere-Tou)-128.mp3
+95:DJ MFIX Shamaizadeh Mix.mp3
+96:Marzieh Emshab Shabe Mahtabe Live in Olympia.mp3
+97:Shahram Solati Divooneh Bazar.mp3
+98:Leila-Forouhar-Pardis-128.mp3
+99:Marjan-Tanha-128.mp3
+100:Black-Cats-Man-O-Del-128.mp3
+101:08 Tanha.mp3
+102:Donya-Ghalb(320).mp3
+103:Nooshafarin-Yavash-Yavash-128.mp3
+104:Davood Behboodi Yare Bala Boland.mp3
+105:Hayedeh Padeshahe Khooban.mp3
+106:Googoosh-Kaj-Kolaah-Khaan-128.mp3
+107:Siavash Shams Ghahr O Aashti.mp3
+108:03 Daro Va Kon Azizam.mp3
+109:Moein-Ghasam-Nakhor-128.mp3
+110:Siavash-Ghomayshi-Rooze-Barfi-128.mp3
+111:Mahasti-Zendegi.mp3
+112:Mahasti-Kami-Ba-Man-Modara-Kon-128.mp3
+113:Hayede Shabe Eshgh.mp3
+114:Martik-Faghat-Yekbaar-128.mp3
+115:Delkash Larzoon Larzoon.mp3
+116:Kouros-Dokhtare-Hamsayeh-128.mp3
+117:Mohammad Esfahani - Shekayate Hejran (128).mp3
+118:Googoosh-Hejrat-128.mp3
+119:Hayedeh-Shabeh-Eshgh-128.mp3
+120:Shahrokh - Parishoon.mp3
+121:The-Boyz-Bigharar-128.mp3
+122:Shohreh Cheh Konam.mp3
+123:Jahan-Khatoon-128.mp3
+124:Farhad-Saghf-128.mp3
+125:Fereydoun Gole Hayahoo.mp3
+126:IMG_8626.MP4
+127:Arash-Vala-Yadeteh-128.mp3
+128:Sattar-Taak-Khal-128.mp3
+129:She Ba He - Kie Kie (128).mp3
+130:Afshin-Moghadam-Gozahteh-128.mp3
+131:Alireza-Azar-Dayereh-128.mp3
+132:Ali-Danial-Ba-Cheshmat-128.mp3
+133:Martik Parandeh.mp3
+134:Shohreh-Agha-128.mp3
+135:Shakila-Ghame-Yar-128.mp3
+136:Hayedeh-Vafayeh-Del-128.mp3
+137:Shamaizadeh-Ba-To-Bidar-Misham-128.mp3
+138:Rushid-Khorshid-Khanoom-128.mp3
+139:Khalegh.mp3
+140:Suzan-Ghomar-Baz-128.mp3
+141:Martik Harir.mp3
+142:CQADBAADrAIAAvN8QFNmX--zWzjp4gI.mp3
+143:Do Sedaiy Tajdid Ahd.mp3
+144:Donya-Az-In-Shahr-Boro.mp3
+145:Donya-Badi-Baram.mp3
+146:Donya-Baroon-Ke-Mibareh.mp3
+147:Donya-Dardesar.mp3
+148:Donya-Jaye-Hamegi-Khali.mp3
+149:Donya-Koo-Ta-Biad.mp3
+150:Donya-Tamoom-Shod-Raft-(320).mp3
+151:Gdaal-Sedaha28Ft-Imanemun-and-Donya29.mp3
+152:IMG_8626.MP4
+153:Moein-Ghasam-Nakhor-128.mp3
+154:She Ba He - Kie Kie (128).mp3
+155:Shahrokh - Parishoon.mp3
+156:Farhad-Saghf-128.mp3
+157:Hayedeh-Shabeh-Eshgh-128.mp3
+158:Hayedeh-Vafayeh-Del-128.mp3
+159:Mahasti-To-Bezan-Ta-Man-Beraghsam-128.mp3
+160:Shadmehr-Aghili-Mano-To-128.mp3
+161:Arash-Vala-Yadeteh-128.mp3
+162:Googoosh-Hejrat-128.mp3
+163:Googoosh-Kaj-Kolaah-Khaan-128.mp3
+164:Dariush Tekieh Bar Baad.mp3
+165:Shakila-Ghame-Yar-128.mp3
+166:Khaste.mp3
+167:Mahasti-Zendegi.mp3
+168:Shamaizadeh-Ba-To-Bidar-Misham-128.mp3
+169:Mohammad-Esfahani-Maro-Ey-Doost-128.mp3
+170:03 Daro Va Kon Azizam.mp3
+171:Hayede Shabe Eshgh.mp3
+172:09- Bandari.mp3
+173:Alireza-Azar-Dayereh-128.mp3
+174:Shahram Solati Divooneh Bazar.mp3
+175:Nooshafarin-Yavash-Yavash-128.mp3
+176:Naser-Abdollahi-Nasseria-128.mp3
+177:Aline Khalaf - wala wala kan.mp3
+178:Marzieh Emshab Shabe Mahtabe Live in Olympia.mp3
+179:Black-Cats-Man-O-Del-128.mp3
+180:Donya-Ghalb(320).mp3
+181:Fereydoun Gole Hayahoo.mp3
+182:Suzan-Ghomar-Baz-128.mp3
+183:Siavash Shams Ghahr O Aashti.mp3
+184:Martik Harir.mp3
+185:Shohreh-Agha-128.mp3
+186:Shohreh Cheh Konam.mp3
+187:Martik Parandeh.mp3
+188:Hala-Khali-Blash-128.mp3
+189:DJ MFIX Shamaizadeh Mix.mp3
+190:The-Boyz-Bigharar-128.mp3
+191:Moein-Bigharar-128.mp3
+192:Mahasti-Kami-Ba-Man-Modara-Kon-128.mp3
+193:Manoochehr-Khanoomi-128.mp3
+194:Mohammad Esfahani - Shekayate Hejran (128).mp3
+195:Kouros-Dokhtare-Hamsayeh-128.mp3
+196:Davood Behboodi Yare Bala Boland.mp3
+197:04 Nargese Shiraz.mp3
+198:08 Tanha.mp3
+199:Martik-Faghat-Yekbaar-128.mp3
+200:Hayedeh-Mahasti-Dele-Koocholo-(Ft-Anoushirvan-Rohani)-128.mp3
+201:Mansour-Only-for-You-(Faghat-Bekhatere-Tou)-128.mp3
+202:Mansour-Eshghe-Aatashi-128.mp3
+203:Hayedeh Padeshahe Khooban.mp3
+204:Siavash-Ghomayshi-Rooze-Barfi-128.mp3
+205:Shamaizadeh-Cheshm-o-Abroo-128.mp3
+206:Khalegh.mp3
+207:Ali-Danial-Ba-Cheshmat-128.mp3
+208:Marjan-Tanha-128.mp3
+209:Jahan-Khatoon-128.mp3
+210:Mohammad-Noori-Jomeh-Bazar-128.mp3
+211:Aref_Soltane-Ghalbha.mp3
+212:Aref-Behtarin-Bahaneh-128.mp3
+213:Aref-Na-Mehraban-128.mp3
+214:Sattar-Taak-Khal-128.mp3
+215:Delkash Larzoon Larzoon.mp3
+216:Leila-Forouhar-Pardis-128.mp3
+217:Rushid-Khorshid-Khanoom-128.mp3
+218:Afshin-Moghadam-Gozahteh-128.mp3
+219:Moein-Z Man-Asheghetam-Hanoozam-320.mp3
+220:Moein-Z-Bemanad-320.mp3
+221:Moein-Z-Dametoon-Garme-320.mp3
+222:Moein-Z-Daryabam-320.mp3
+223:Moein-Z-Didi-Paeizo-320.mp3
+224:Moein-Z-Heset-Doroghe-320.mp3
+225:Moein-Z-Hich-320.mp3
+226:Moein-Z-Jade-Haraz-320.mp3
+227:Moein-Z-Parse-320.mp3
+228:Moein-Z-Sare-Sobh-320.mp3
+229:Moein-Z-Shayad-Delet-Tang-Shode-Toam-320.mp3
+230:Moein-Z-Sigare-Vasate Kar-320.mp3
+231:Moein-Z-Taaneh-320.mp3
+232:Moein-Z-Zibaye-Zeshte-Man-320.mp3
+233:Nareye-Chaah.mp3
+234:Moein Z - Zamaneh.mp3
+235:Moein Z - Pir Misham.mp3
+236:CQADBAADrAIAAvN8QFNmX--zWzjp4gI.mp3
+237:Do Sedaiy Tajdid Ahd.mp3
+238:Donya-Az-In-Shahr-Boro.mp3
+239:Donya-Badi-Baram.mp3
+240:Donya-Baroon-Ke-Mibareh.mp3
+241:Donya-Dardesar.mp3
+242:Donya-Jaye-Hamegi-Khali.mp3
+243:Donya-Koo-Ta-Biad.mp3
+244:Donya-Tamoom-Shod-Raft-(320).mp3
+245:Gdaal-Sedaha28Ft-Imanemun-and-Donya29.mp3
+246:IMG_8626.MP4
+247:Moein-Ghasam-Nakhor-128.mp3
+248:She Ba He - Kie Kie (128).mp3
+249:Moein-Z Man-Asheghetam-Hanoozam-320.mp3
+250:Moein-Z-Bemanad-320.mp3
+251:Moein-Z-Dametoon-Garme-320.mp3
+252:Moein-Z-Daryabam-320.mp3
+253:Moein-Z-Didi-Paeizo-320.mp3
+254:Moein-Z-Heset-Doroghe-320.mp3
+255:Moein-Z-Hich-320.mp3
+256:Moein-Z-Jade-Haraz-320.mp3
+257:Moein-Z-Parse-320.mp3
+258:Moein-Z-Sare-Sobh-320.mp3
+259:Moein-Z-Shayad-Delet-Tang-Shode-Toam-320.mp3
+260:Moein-Z-Sigare-Vasate Kar-320.mp3
+261:Moein-Z-Taaneh-320.mp3
+262:Moein-Z-Zibaye-Zeshte-Man-320.mp3
+263:Nareye-Chaah.mp3
+264:Shahrokh - Parishoon.mp3
+265:Farhad-Saghf-128.mp3
+266:Hayedeh-Shabeh-Eshgh-128.mp3
+267:Hayedeh-Vafayeh-Del-128.mp3
+268:Mahasti-To-Bezan-Ta-Man-Beraghsam-128.mp3
+269:Shadmehr-Aghili-Mano-To-128.mp3
+270:Arash-Vala-Yadeteh-128.mp3
+271:Googoosh-Hejrat-128.mp3
+272:Googoosh-Kaj-Kolaah-Khaan-128.mp3
+273:Dariush Tekieh Bar Baad.mp3
+274:Shakila-Ghame-Yar-128.mp3
+275:Khaste.mp3
+276:Mahasti-Zendegi.mp3
+277:Shamaizadeh-Ba-To-Bidar-Misham-128.mp3
+278:Mohammad-Esfahani-Maro-Ey-Doost-128.mp3
+279:03 Daro Va Kon Azizam.mp3
+280:Hayede Shabe Eshgh.mp3
+281:09- Bandari.mp3
+282:Alireza-Azar-Dayereh-128.mp3
+283:Shahram Solati Divooneh Bazar.mp3
+284:Nooshafarin-Yavash-Yavash-128.mp3
+285:Naser-Abdollahi-Nasseria-128.mp3
+286:Aline Khalaf - wala wala kan.mp3
+287:Marzieh Emshab Shabe Mahtabe Live in Olympia.mp3
+288:Black-Cats-Man-O-Del-128.mp3
+289:Donya-Ghalb(320).mp3
+290:Fereydoun Gole Hayahoo.mp3
+291:Suzan-Ghomar-Baz-128.mp3
+292:Siavash Shams Ghahr O Aashti.mp3
+293:Martik Harir.mp3
+294:Shohreh-Agha-128.mp3
+295:Shohreh Cheh Konam.mp3
+296:Martik Parandeh.mp3
+297:Hala-Khali-Blash-128.mp3
+298:DJ MFIX Shamaizadeh Mix.mp3
+299:The-Boyz-Bigharar-128.mp3
+300:Moein-Bigharar-128.mp3
+301:Mahasti-Kami-Ba-Man-Modara-Kon-128.mp3
+302:Manoochehr-Khanoomi-128.mp3
+303:Mohammad Esfahani - Shekayate Hejran (128).mp3
+304:Kouros-Dokhtare-Hamsayeh-128.mp3
+305:Davood Behboodi Yare Bala Boland.mp3
+306:04 Nargese Shiraz.mp3
+307:08 Tanha.mp3
+308:Martik-Faghat-Yekbaar-128.mp3
+309:Hayedeh-Mahasti-Dele-Koocholo-(Ft-Anoushirvan-Rohani)-128.mp3
+310:Mansour-Only-for-You-(Faghat-Bekhatere-Tou)-128.mp3
+311:Mansour-Eshghe-Aatashi-128.mp3
+312:Hayedeh Padeshahe Khooban.mp3
+313:Siavash-Ghomayshi-Rooze-Barfi-128.mp3
+314:Shamaizadeh-Cheshm-o-Abroo-128.mp3
+315:Khalegh.mp3
+316:Ali-Danial-Ba-Cheshmat-128.mp3
+317:Marjan-Tanha-128.mp3
+318:Jahan-Khatoon-128.mp3
+319:Mohammad-Noori-Jomeh-Bazar-128.mp3
+320:Aref_Soltane-Ghalbha.mp3
+321:Aref-Behtarin-Bahaneh-128.mp3
+322:Aref-Na-Mehraban-128.mp3
+323:Sattar-Taak-Khal-128.mp3
+324:Delkash Larzoon Larzoon.mp3
+325:Leila-Forouhar-Pardis-128.mp3
+326:Moein Z - Zamaneh.mp3
+327:Rushid-Khorshid-Khanoom-128.mp3
+328:Afshin-Moghadam-Gozahteh-128.mp3
+329:Moein Z - Pir Misham.mp3
+330:Moein-Bigharar-128.mp3
+331:Khalegh.mp3
+332:Moein Z - Pir Misham.mp3
+333:Moein Z - Rismoone Siyah.mp3
+playlist_end
