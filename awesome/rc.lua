@@ -93,6 +93,6 @@ require('rules')
 
 require('signals')
 
-awful.spawn.with_shell('picom --experimental-backends')
-awful.spawn.with_shell('feh --bg-fill ~/wallpaper/w19.jpg')
+-- awful.spawn.with_shell('picom --experimental-backends')
+awful.spawn.with_shell('feh --bg-fill ~/wallpaper/w57.webp')
 awful.spawn.with_shell('unclutter idle 3 &')

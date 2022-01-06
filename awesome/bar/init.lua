@@ -72,11 +72,12 @@ awful.screen.connect_for_each_screen(
 			awful.wibar(
 			{
 				screen = s,
-				position = 'top',
+				position = beautiful.bar_position,
 				ontop = true,
 				height = beautiful.top_panel_height,
-				opacity = 0.9,
-				width = s.geometry.width - 30
+				opacity = beautiful.bar_opacity,
+				type = "dock",
+				width = s.geometry.width - beautiful.useless_gap * 4
 			}
 		)
 
@@ -86,15 +87,15 @@ awful.screen.connect_for_each_screen(
 			{
 				layout = wibox.layout.align.horizontal,
 				wibox.layout.margin(s.taglist, dpi(3), dpi(10), dpi(3), dpi(3)),
-				wibox.layout.margin(s.tasklist, dpi(2), dpi(10), dpi(2), dpi(2))
+				wibox.layout.margin(s.tasklist, dpi(3), dpi(10), dpi(3), dpi(3))
 			},
 			require('bar.widgets.calendar').create(s),
 			{
 				layout = wibox.layout.fixed.horizontal,
 				wibox.layout.margin(wibox.widget.systray(), dpi(5), dpi(5), dpi(0), dpi(0)),
 				wibox.layout.margin(kbdcfg.widget, dpi(5), dpi(0), dpi(3), dpi(3)),
-				wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(4.5), dpi(4.5)),
-				wibox.layout.margin(logout(), dpi(5), dpi(5), dpi(5), dpi(5))
+				wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(5.5), dpi(5.5)),
+				wibox.layout.margin(logout(), dpi(5), dpi(10), dpi(5), dpi(5)),
 			}
 		}
 	end

@@ -42,36 +42,60 @@ return function(s)
 			)
 		),
 		layout = {
-			spacing_widget = {
-				{
-					forced_width = 5,
-					forced_height = 21,
-					thickness = 2,
-					color = beautiful.tasklist_separator,
-					widget = wibox.widget.separator
-				},
-				valign = 'center',
-				halign = 'center',
-				widget = wibox.container.place
-			},
-			spacing = 30,
+			-- spacing_widget = {
+			-- 	{
+			-- 		forced_width = 5,
+			-- 		forced_height = 21,
+			-- 		thickness = 2,
+			-- 		color = beautiful.tasklist_separator,
+			-- 		widget = wibox.widget.separator
+			-- 	},
+			-- 	valign = 'center',
+			-- 	halign = 'center',
+			-- 	widget = wibox.container.place
+			-- },
+			spacing = 5,
 			layout = wibox.layout.fixed.horizontal
 		},
+		-- widget_template = {
+		-- 	{
+		-- 		{
+		-- 			{
+		-- 				{
+		-- 					id = 'icon_role',
+		-- 					widget = wibox.widget.imagebox
+		-- 				},
+		-- 				margins = 2,
+		-- 				widget = wibox.container.margin
+		-- 			},
+		-- 			layout = wibox.layout.fixed.horizontal
+		-- 		},
+		-- 		left = 7,
+		-- 		right = 7,
+		-- 		widget = wibox.container.margin
+		-- 	},
+		-- 	id = 'background_role',
+		-- 	widget = wibox.container.background
+		-- }
 		widget_template = {
 			{
 				{
+					-- {
+					-- 	{
+					-- 		id = 'icon_role',
+					-- 		widget = wibox.widget.imagebox
+					-- 	},
+					-- 	margins = 2,
+					-- 	widget = wibox.container.margin
+					-- },
 					{
-						{
-							id = 'icon_role',
-							widget = wibox.widget.imagebox
-						},
-						margins = 2,
-						widget = wibox.container.margin
+						id = 'text_role',
+						widget = wibox.widget.textbox
 					},
 					layout = wibox.layout.fixed.horizontal
 				},
-				left = 7,
-				right = 7,
+				left = 10,
+				right = 10,
 				widget = wibox.container.margin
 			},
 			id = 'background_role',

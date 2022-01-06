@@ -42,7 +42,7 @@ calendar.create = function(screen)
 	-- )
 
 	local cal_shape = function(cr, width, height)
-		gears.shape.partially_rounded_rect(cr, width, height, false, false, true, true, 12)
+		gears.shape.partially_rounded_rect(cr, width, height, false, false, true, true, 10)
 	end
 
 	-- Calendar Widget
@@ -53,18 +53,19 @@ calendar.create = function(screen)
 			start_sunday = true,
 			spacing = 10,
 			shape = function(cr, width, height)
-				gears.shape.rounded_rect(cr, width, height, 4)
+				gears.shape.rounded_rect(cr, width, height, 10)
 			end,
 			font = beautiful.title_font,
-			long_weekdays = false,
+			long_weekdays = true,
 			margin = 0, -- 10
+			bg = beautiful.bg_normal,
 			border_width = 1,
 			border_color = beautiful.bg_focus,
 			style_month = {border_width = 0, padding = 12, shape = cal_shape, padding = 25},
 			style_header = {border_width = 0, bg_color = '#00000000'},
 			style_weekday = {border_width = 0, bg_color = '#00000000'},
 			style_normal = {border_width = 0, bg_color = '#00000000'},
-			style_focus = {border_width = 0, bg_color = beautiful.bg_urgent}
+			style_focus = {border_width = 0, bg_color = beautiful.bg_urgent, fg_color = beautiful.fg_urgent}
 		}
 	)
 

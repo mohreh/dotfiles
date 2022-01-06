@@ -24,12 +24,12 @@ modkey = 'Mod4'
 awful.layout.layouts = {
 	-- awful.layout.suit.tile,
 	-- awful.layout.suit.floating,
+	bling.layout.equalarea,
 	bling.layout.mstab,
 	bling.layout.centered,
 	-- bling.layout.vertical,
-	-- bling.layout.horizontal,
-	bling.layout.equalarea,
-	bling.layout.deck
+	bling.layout.horizontal,
+	-- bling.layout.deck
 	-- awful.layout.suit.tile.left,
 	-- awful.layout.suit.tile.bottom,
 	-- awful.layout.suit.tile.top,
