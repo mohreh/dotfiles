@@ -2,6 +2,7 @@ local awful = require 'awful'
 local beautiful = require 'beautiful'
 local gears = require 'gears'
 local wibox = require 'wibox'
+local bling = require
 
 local dpi = beautiful.xresources.apply_dpi
 
@@ -92,7 +93,7 @@ awful.screen.connect_for_each_screen(
 			require('bar.widgets.calendar').create(s),
 			{
 				layout = wibox.layout.fixed.horizontal,
-				wibox.layout.margin(wibox.widget.systray(), dpi(5), dpi(5), dpi(0), dpi(0)),
+				wibox.layout.margin(wibox.widget.systray(), dpi(0), dpi(0), dpi(5), dpi(5)),
 				wibox.layout.margin(kbdcfg.widget, dpi(5), dpi(0), dpi(3), dpi(3)),
 				wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(5.5), dpi(5.5)),
 				wibox.layout.margin(logout(), dpi(5), dpi(10), dpi(5), dpi(5)),
