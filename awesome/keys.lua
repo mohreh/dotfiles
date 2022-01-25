@@ -226,6 +226,15 @@ globalkeys =
 		end,
 		{description = 'run rofi', group = 'launcher'}
 	),
+	awful.key(
+		{modkey},
+		'c',
+		function()
+			-- awful.screen.focused().mypromptbox:run()
+			awful.util.spawn('/home/mrh/.config/rofi/clipboard.sh')
+		end,
+		{description = 'run rofi-greenclip', group = 'launcher'}
+	),
 	-- Firefox developer edition
 	awful.key(
 		{modkey},
