@@ -130,7 +130,7 @@ return packer.startup(function()
    }
 
    use {
-      "hrsh7th/nvim-cmp"
+      "hrsh7th/nvim-cmp",
       disable = not plugin_settings.status.cmp,
       after = plugin_settings.options.cmp.lazy_load and "friendly-snippets",
       config = override_req("nvim_cmp", "plugins.configs.cmp"),
