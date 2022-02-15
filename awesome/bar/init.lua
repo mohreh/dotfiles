@@ -14,9 +14,9 @@ local logout = require("bar.widgets.logout-menu")
 -- systray_margin:set_widget(systray)
 
 local widgets = require("widgets")
--- local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
+-- local volume_widget = require("bar.widgets.volume-widget.volume")
 local volume_widget = widgets.volume_widget
-local mpris_widget = widgets.mpris_widget
+local mpris_widget = require("bar.widgets.mpris-widget")
 local kbdcfg = widgets.kbdcfg
 -- }}}
 
