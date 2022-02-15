@@ -10,16 +10,16 @@ M.ui = {
 }
 
 M.plugins = {
-  options = {
-    lspconfig = {
-      setup_lspconf = "custom.plugins.lspconfig",    
-    },   
-  },
+   options = {
+      lspconfig = {
+         setup_lspconf = "custom.plugins.lspconfig",
+      },
+   },
 
-  status = {
-    nvim_tree = true,
-    dashboard = true,
-  },
+   status = {
+      nvim_tree = true,
+      dashboard = true,
+   },
 }
 
 return M
