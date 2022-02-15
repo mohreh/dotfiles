@@ -26,25 +26,21 @@ visualizer_color = blue, cyan, green, yellow, magenta, red
 playlist_disable_highlight_delay = "0"
 #message_delay_time = 5
 
-
-
 colors_enabled                        = "yes"
-#song_list_format = " $8[%t] $R$7%l "
-#song_list_format = " $8[%t] $7 »» $2[%a]$2 $R$7%l "
+# song_list_format = " $8{%t|%f} $R$7{%l}"
+# song_list_format = " $8{%f} $7 »» $2{%a}$2 $R$7{%l} "
 #song_status_format = " $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
-song_status_format = "$b$7♫ $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
-#song_status_format                    = "$0{$8%t$9} on {$5%b$9} by {$3%a}"
-#song_columns_list_format              = "(30)[green]{a} (40)[]{t|f} (30)[blue]{b}"
-song_columns_list_format = "(3)[]{} (30)[red]{a} (50)[yellow]{t|f} (20)[green]{b}"
-#song_columns_list_format = "(6)[]{} (23)[red]{a} (26)[white]{t|f} (40)[blue]{b} (4)[red]{l}"
+# song_status_format = "$b$7♫ $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
+song_status_format                    = "$0{$8%t$9} on {$5%b$9} by {$3%a}"
+song_columns_list_format              = "(5)[]{} (15)[red]{a} (75)[yellow]{t|f} (5)[red]{l}"
+# song_columns_list_format = "(3)[]{} (30)[red]{a} (50)[yellow]{t|f} (20)[green]{b}"
+# song_columns_list_format = "(6)[]{} (23)[red]{a} (26)[white]{t|f} (40)[blue]{b} (4)[red]{l}"
 
 
-#now_playing_prefix                    = "$b$8> $/b$9"
-#now_playing_suffix                    = ""
+# now_playing_prefix                    = "$b$8> $/b$9"
 now_playing_prefix = "$b$7▶▷"
 now_playing_suffix = "$8$/b"
 
-#progressbar_color                     = " "
 #progressbar_look = "─  "
 progressbar_look                     = "━━─"
 #progressbar_look = "━■"
@@ -60,14 +56,11 @@ autocenter_mode                       = "yes"
 centered_cursor                       = "yes"
 mouse_support                         = "yes"
 discard_colors_if_item_is_selected    = "yes"
-#fancy_scrolling                       = "yes"
 ignore_leading_the                    = "yes"
 
 main_window_color           = "default"
-
 enable_window_title         = "yes"
 
 ###############
 display_volume_level = yes
-# execute_on_song_change = "bash ~/.config/ncmpcpp/music-notify.sh"
-external_editor = "nano"
+external_editor = "nvim"
