@@ -1,7 +1,7 @@
-local xresources = require('beautiful.xresources')
+local xresources = require("beautiful.xresources")
 local dpi = xresources.apply_dpi
-local awful = require('awful')
-local gears = require('gears')
+local awful = require("awful")
+local gears = require("gears")
 
 -- define module table
 local theme = {}
@@ -33,28 +33,27 @@ theme.xcolor14 = "#c7e5d6"
 theme.xcolor15 = "#eaeaea"
 
 -- Font
-theme.font = 'Ubuntu Mono Semibold 9'
-theme.title_font = 'Ubuntu Mono 9'
+theme.font = "Ubuntu Mono Semibold 9"
+theme.title_font = "Ubuntu Mono 9"
 
 -- Background
 theme.bg_normal = theme.xbackground
 theme.bg_dark = theme.xcolor0
-theme.bg_light = '#232530'
+theme.bg_light = "#232530"
 theme.bg_focus = theme.xcolor0
 theme.bg_urgent = theme.xcolor8
 theme.bg_minimize = theme.xcolor8
 theme.bg_systray = theme.darker_bg
 
-
 -- Foreground
 theme.fg_normal = theme.xcolor7
-theme.fg_dark = '#cccccc'
+theme.fg_dark = "#cccccc"
 theme.fg_focus = theme.xcolor4
 theme.fg_urgent = theme.xcolor3
 theme.fg_minimize = theme.xcolor8
 
 -- Gaps
-theme.useless_gap = dpi(8)
+theme.useless_gap = dpi(7)
 theme.gap_single_client = true
 
 -- Corner Radius of Rounded Windows
@@ -68,7 +67,7 @@ theme.border_radius = dpi(6)
 theme.client_radius = dpi(12)
 
 -- Wibar
-theme.bar_position = top
+theme.bar_position = "top"
 theme.bar_opacity = dpi(0.5)
 
 -- Taglist
@@ -107,17 +106,60 @@ theme.systray_icon_spacing = dpi(5)
 theme.titlebars_enabled = false
 
 -- icons
-theme.icon_theme = 'Tela-dark'
+-- theme.icon_theme = "Tela-dark"
 
-theme.taglist_text_empty    = {"","","","","","","","","",""}
-theme.taglist_text_occupied = {"","","","","","","","","",""}
-theme.taglist_text_focused  = {"","","","","","","","","",""}
-theme.taglist_text_urgent   = {"","","","","","","","","",""}
+theme.taglist_text_empty = { "", "", "", "", "", "", "", "", "", "" }
+theme.taglist_text_occupied = { "", "", "", "", "", "", "", "", "", "" }
+theme.taglist_text_focused = { "", "", "", "", "", "", "", "", "", "" }
+theme.taglist_text_urgent = { "", "", "", "", "", "", "", "", "", "" }
 
-theme.taglist_text_color_empty    = { theme.xcolor0, theme.xcolor0, theme.xcolor0, theme.xcolor0, theme.xcolor0, theme.xcolor0, theme.xcolor0, theme.xcolor0, theme.xcolor0, theme.xcolor0 }
-theme.taglist_text_color_occupied  = { theme.xcolor1, theme.xcolor2, theme.xcolor3, theme.xcolor4, theme.xcolor5, theme.xcolor6, theme.xcolor1, theme.xcolor2, theme.xcolor3, theme.xcolor4 }
-theme.taglist_text_color_focused  = { theme.xcolor1, theme.xcolor2, theme.xcolor3, theme.xcolor4, theme.xcolor5, theme.xcolor6, theme.xcolor1, theme.xcolor2, theme.xcolor3, theme.xcolor4 }
-theme.taglist_text_color_urgent   = { theme.xcolor9, theme.xcolor10, theme.xcolor11, theme.xcolor12, theme.xcolor13, theme.xcolor14, theme.xcolor9, theme.xcolor10, theme.xcolor11, theme.xcolor12 }
-
+theme.taglist_text_color_empty = {
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+  theme.xcolor0,
+}
+theme.taglist_text_color_occupied = {
+  theme.xcolor1,
+  theme.xcolor2,
+  theme.xcolor3,
+  theme.xcolor4,
+  theme.xcolor5,
+  theme.xcolor6,
+  theme.xcolor1,
+  theme.xcolor2,
+  theme.xcolor3,
+  theme.xcolor4,
+}
+theme.taglist_text_color_focused = {
+  theme.xcolor1,
+  theme.xcolor2,
+  theme.xcolor3,
+  theme.xcolor4,
+  theme.xcolor5,
+  theme.xcolor6,
+  theme.xcolor1,
+  theme.xcolor2,
+  theme.xcolor3,
+  theme.xcolor4,
+}
+theme.taglist_text_color_urgent = {
+  theme.xcolor9,
+  theme.xcolor10,
+  theme.xcolor11,
+  theme.xcolor12,
+  theme.xcolor13,
+  theme.xcolor14,
+  theme.xcolor9,
+  theme.xcolor10,
+  theme.xcolor11,
+  theme.xcolor12,
+}
 
 return theme

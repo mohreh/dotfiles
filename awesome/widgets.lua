@@ -1,19 +1,14 @@
-local lain = require('lain')
-local keyboard_layout = require('modules.keyboard_layout')
+local keyboard_layout = require("modules.keyboard_layout")
+local volume_widget = require("modules.awesome-wm-widgets.volume-widget.volume")
+local mpris_widget = require("modules.awesome-wm-widgets.mpris-widget")
 
-local kbdcfg = keyboard_layout.kbdcfg({type = 'tui'})
-kbdcfg.add_primary_layout('English', 'US', 'us')
-kbdcfg.add_primary_layout('Persian', 'IR', 'ir')
+local kbdcfg = keyboard_layout.kbdcfg({ type = "tui" })
+kbdcfg.add_primary_layout("English", "US", "us")
+kbdcfg.add_primary_layout("Persian", "IR", "ir")
 kbdcfg.bind()
 
 return {
-	volume = lain.widget.pulsebar(
-		{
-			width = 40,
-			ticks = true,
-			ticks_size = 5
-		}
-	),
-	mpd = lain.widget.mpd(),
-	kbdcfg = kbdcfg
+  volume_widget = volume_widget,
+  mpris_widget = mpris_widget,
+  kbdcfg = kbdcfg,
 }
