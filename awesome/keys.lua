@@ -76,8 +76,11 @@ globalkeys = gears.table.join(
   end, { description = "go back", group = "client" }),
   -- Standard program
   awful.key({ modkey }, "Return", function()
-    awful.spawn(terminal)
-  end, { description = "open a terminal", group = "launcher" }),
+    awful.spawn.with_shell("wmctrl -x -a 'tabbed' || tabbed alacritty --embed")
+  end, { description = "open/switch to the instance of one single tabbed terminal", group = "launcher" }),
+  awful.key({ modkey, "Control" }, "Return", function()
+    awful.spawn.with_shell("tabbed alacritty --embed")
+  end, { description = "open new instance of tabbed terminal", group = "launcher" }),
   awful.key({ modkey, "Control" }, "r", awesome.restart, { description = "reload awesome", group = "awesome" }),
   awful.key({ modkey, "Shift" }, "q", awesome.quit, { description = "quit awesome", group = "awesome" }),
   awful.key({ modkey }, "l", function()
