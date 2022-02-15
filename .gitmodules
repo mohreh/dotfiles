@@ -1,3 +1,6 @@
-[submodule "awesome/awesome-wm-widgets"]
-	path = awesome/awesome-wm-widgets
-	url = https://github.com/streetturtle/awesome-wm-widgets.git
+[submodule "awesome/bling"]
+	path = awesome/bling
+	url = https://github.com/BlingCorp/bling.git
+[submodule "awesome/keyboard_layout"]
+	path = awesome/keyboard_layout
+	url = https://github.com/echuraev/keyboard_layout.git

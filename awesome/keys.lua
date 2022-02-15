@@ -11,7 +11,7 @@ local kbdcfg = widgets.kbdcfg
 local volume_widget = widgets.volume_widget
 
 -- Get Song Info
-local bling = require("modules.bling")
+local bling = require("bling")
 local playerctl = bling.signal.playerctl.lib()
 
 -- }}}

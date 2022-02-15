@@ -8,7 +8,7 @@ local wibox = require("wibox")
 
 -- beautiful.init(gears.filesystem.get_themes_dir() .. 'default/theme.lua')
 beautiful.init(gears.filesystem.get_configuration_dir() .. "theme.lua")
-local bling = require("modules.bling")
+local bling = require("bling")
 
 -- This is used later as the default terminal and editor to run.
 -- terminal = "kitty"
