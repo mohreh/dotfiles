@@ -4,11 +4,11 @@
 # environment variables. Some entries may override variables
 # set by alacritty itself.
 # shell:
-  # program: /usr/bin/zsh
-  # args:
-  # - -l
-  # - -embed
-  # - "tmux"
+# program: /usr/bin/zsh
+# args:
+# - -l
+# - -embed
+# - "tmux"
 
 env:
   # TERM variable
@@ -97,7 +97,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: "Hasklug Nerd Font Mono"
+    family: "CaskaydiaCove Nerd Font Mono"
 
     # The `style` can be specified to pick a specific face.
     style: SemiBold
@@ -130,7 +130,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 9.5
+  size: 10
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -165,32 +165,32 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: '#282c34'
-    foreground: '#abb2bf'
+    background: "#282c34"
+    foreground: "#abb2bf"
 
   # Normal colors
   normal:
     # NOTE: Use '#131613' for the `black` color if you'd like to see
     # black text on the background.
-    black: '#282c34'
-    red: '#e06c75'
-    green: '#98c379'
-    yellow: '#d19a66'
-    blue: '#61afef'
-    magenta: '#c678dd'
-    cyan: '#56b6c2'
-    white: '#abb2bf'
+    black: "#282c34"
+    red: "#e06c75"
+    green: "#98c379"
+    yellow: "#d19a66"
+    blue: "#61afef"
+    magenta: "#c678dd"
+    cyan: "#56b6c2"
+    white: "#abb2bf"
 
   # Bright colors
   bright:
-    black: '#5c6370'
-    red: '#e06c75'
-    green: '#98c379'
-    yellow: '#d19a66'
-    blue: '#61afef'
-    magenta: '#c678dd'
-    cyan: '#56b6c2'
-    white: '#ffffff'
+    black: "#5c6370"
+    red: "#e06c75"
+    green: "#98c379"
+    yellow: "#d19a66"
+    blue: "#61afef"
+    magenta: "#c678dd"
+    cyan: "#56b6c2"
+    white: "#ffffff"
 theme: One-Dark
 
 mouse:
@@ -350,28 +350,13 @@ key_bindings:
   - { key: End, mods: Alt, chars: "\e[1;3F" }
   - { key: End, chars: "\eOF", mode: AppCursor }
   - { key: End, chars: "\e[F", mode: ~AppCursor }
-  - {
-      key: PageUp,
-      mods: Shift,
-      action: ScrollPageUp,
-      mode: ~Alt
-    }
+  - { key: PageUp, mods: Shift, action: ScrollPageUp, mode: ~Alt }
   - { key: PageUp, mods: Shift, chars: "\e[5;2~", mode: Alt }
   - { key: PageUp, mods: Control, chars: "\e[5;5~" }
   - { key: PageUp, mods: Alt, chars: "\e[5;3~" }
   - { key: PageUp, chars: "\e[5~" }
-  - {
-      key: PageDown,
-      mods: Shift,
-      action: ScrollPageDown,
-      mode: ~Alt
-    }
-  - {
-      key: PageDown,
-      mods: Shift,
-      chars: "\e[6;2~",
-      mode: Alt
-    }
+  - { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt }
+  - { key: PageDown, mods: Shift, chars: "\e[6;2~", mode: Alt }
   - { key: PageDown, mods: Control, chars: "\e[6;5~" }
   - { key: PageDown, mods: Alt, chars: "\e[6;3~" }
   - { key: PageDown, chars: "\e[6~" }
