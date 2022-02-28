@@ -82,7 +82,7 @@ plugins=(
   history
   emoji
   web-search
-  copydir
+  copypath
   copyfile
   dirhistory
   )
@@ -116,8 +116,10 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias lf='~/.config/lf/lfrun'
 alias vi='nvim'
-alias ls='ls -l'
-alias la='ls -Al'
+alias ls='exa --icons'
+alias ll='exa -l --icons'
+alias ld='exa -lD --icons'
+alias la='exa -al --icons'
 alias ze='zellij'
 
 ZSH_WEB_SEARCH_ENGINES=(
