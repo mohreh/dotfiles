@@ -165,31 +165,31 @@ draw_bold_text_with_bright_colors: false
 colors:
   # Default colors
   primary:
-    background: "#282c34"
-    foreground: "#abb2bf"
+    background: "#1a2026"
+    foreground: "#b0b0b0"
 
   # Normal colors
   normal:
     # NOTE: Use '#131613' for the `black` color if you'd like to see
     # black text on the background.
-    black: "#282c34"
-    red: "#e06c75"
-    green: "#98c379"
-    yellow: "#d19a66"
-    blue: "#61afef"
-    magenta: "#c678dd"
-    cyan: "#56b6c2"
-    white: "#abb2bf"
+    black: "#1a2026"
+    red: "#ac8a8c"
+    green: "#8aac8b"
+    yellow: "#c4c19e"
+    blue: "#6b8bab"
+    magenta: "#a39ec4"
+    cyan: "#9aafe6"
+    white: "#b0b0b0"
 
   # Bright colors
   bright:
-    black: "#5c6370"
-    red: "#e06c75"
-    green: "#98c379"
-    yellow: "#d19a66"
-    blue: "#61afef"
-    magenta: "#c678dd"
-    cyan: "#56b6c2"
+    black: "#565c62"
+    red: "#ac8a8c"
+    green: "#9ec49f"
+    yellow: "#aca98a"
+    blue: "#7797b7"
+    magenta: "#8f8aac"
+    cyan: "#9aafe6"
     white: "#ffffff"
 theme: One-Dark
 
