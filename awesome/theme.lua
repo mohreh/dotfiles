@@ -53,17 +53,17 @@ theme.fg_urgent = theme.xcolor3
 theme.fg_minimize = theme.xcolor8
 
 -- Gaps
-theme.useless_gap = dpi(7)
+theme.useless_gap = dpi(4)
 theme.gap_single_client = true
 
 -- Corner Radius of Rounded Windows
-theme.corner_radius = dpi(5)
+theme.corner_radius = dpi(3)
 
 -- Window Borders
-theme.border_width = dpi(3)
+theme.border_width = dpi(1.2)
 theme.border_normal = theme.darker_bg
 theme.border_focus = theme.bg_urgent
-theme.border_radius = dpi(6)
+theme.border_radius = dpi(3)
 theme.client_radius = dpi(12)
 
 -- Wibar

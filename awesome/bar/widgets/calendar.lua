@@ -52,7 +52,7 @@ calendar.create = function(screen)
     spacing = 12,
     font = beautiful.title_font,
     long_weekdays = true,
-    margin = 5,
+    margin = 8,
     style_month = { border_width = 1, padding = 20, shape = cal_shape, border_color = beautiful.bg_focus },
     style_header = { border_width = 1, bg_color = "#00000000", shape = cal_shape },
     style_weekday = { border_width = 0, bg_color = "#00000000" },
