@@ -4,3 +4,6 @@
 [submodule "awesome/keyboard_layout"]
 	path = awesome/keyboard_layout
 	url = https://github.com/echuraev/keyboard_layout.git
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/NvChad/NvChad
