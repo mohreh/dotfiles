@@ -11,5 +11,6 @@ everyday editor > nvim \
 browser > firefox \
 wm > awesomewm \
 terminal > alacritty \
+font > Cascaydia Code \
 developer tools > nvim, postman, beekeeper, alacritty \
-other > mpd, ncmpcpp, zathura, ferdi, uget, zellij, soundcloud
+other > mpd, ncmpcpp, zathura, ferdi, uget, zellij, soundcloud, tabbed
