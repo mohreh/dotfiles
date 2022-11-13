@@ -3,12 +3,12 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-# shell:
-# program: /usr/bin/zsh
-# args:
-# - -l
-# - -embed
-# - "tmux"
+shell:
+  program: /usr/bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux"
 
 env:
   # TERM variable
@@ -82,7 +82,7 @@ window:
 scrolling:
   # Maximum number of lines in the scrollback buffer.
   # Specifying '0' will disable scrolling.
-  history: 10000
+  history: 100
   # Number of lines the viewport will move for every line scrolled when
   # scrollback is enabled (history > 0).
   multiplier: 3
@@ -98,9 +98,15 @@ font:
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
     family: "CaskaydiaCove Nerd Font Mono"
+    # family: "Fira Mono Nerd Font Mono"
+    # family: "Consolas"
+    # family: "JetBrainsMono Nerd Font"
+    # family: "SauceCodePro Nerd Font Mono"
+    # family: "Source Code Pro"
 
     # The `style` can be specified to pick a specific face.
     style: SemiBold
+    # style: Medium
     # Bold font face
     #bold:
     # Font family

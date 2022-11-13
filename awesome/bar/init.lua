@@ -59,7 +59,7 @@ awful.screen.connect_for_each_screen(function(s)
   local panel = awful.wibar({
     screen = s,
     position = beautiful.bar_position,
-    ontop = true,
+    ontop = false,
     height = beautiful.top_panel_height,
     opacity = beautiful.bar_opacity,
     type = "dock",
