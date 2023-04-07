@@ -1,37 +1,56 @@
--- This is an example chadrc file , its supposed to be placed in /lua/custom/
-
+---@type ChadrcConfig
 local M = {}
 
-local myPlugins = require "custom.plugins"
-local plugin_conf = require "custom.plugins.configs"
-
--- make sure you maintain the structure of `core/default_config.lua` here,
--- example of changing theme:
+-- Path to overriding theme and highlights files
+local highlights = require "custom.highlights"
 
 M.ui = {
-   theme = "chadtain",
+  theme = "catppuccin",
+  theme_toggle = { "catppuccin", "one_light" },
+
+  hl_override = highlights.override,
+  hl_add = highlights.add,
+
+  nvdash = {
+    load_on_startup = true,
+    header = {
+      "            ████████                        ████████            ",
+      "        ██████████████                    ██████████████        ",
+      "        ██████████████████            ██████████████████        ",
+      "      ████        ██████████████████████████████    ██████      ",
+      "      ██    ████    ████████████████████████████    ██████      ",
+      "    ████  ████████  ████████░░░░░░░░██████▒▒▒▒████████▒▒▒▒██    ",
+      "    ████  ████████  ████████░░    ░░██████▒▒▒▒████████▒▒▒▒██    ",
+      "    ████    ████    ████████░░    ░░████████████░░░░████████    ",
+      "  ████████        ██████████░░░░░░░░████████████░░░░██████████  ",
+      "  ██████████████████      ████████████      ██████████████████  ",
+      "  ████████████████  ██████  ████████  ██████  ████████████████  ",
+      "  ██████████████  ██████████  ████  ██████████  ██████████████  ",
+      "████████████████  ██████████  ████  ██████████  ████████████████",
+      "████████████████  ██████████  ████  ██████████  ████████████████",
+      "██████████████████  ██████  ████████  ██████  ██████████████████",
+      "████████████████████      ████████████      ████████████████████",
+      "████████████████████████████████████████████████████████████████",
+      "██████████████████████                    ██████████████████████",
+      "██████████████████                            ██████████████████",
+      "████████████████                                ████████████████",
+      "██████████████                                    ██████████████",
+      "  ████████                                            ████████  ",
+    },
+  },
+
+  statusline = {
+    theme = "default", -- default/vscode/vscode_colored/minimal
+
+    -- default/round/block/arrow (separators work only for "default" statusline theme;
+    -- round and block will work for the minimal theme only)
+    separator_style = "block",
+  },
 }
 
-M.plugins = {
-   status = {
-      nvim_tree = true,
-      alpha = true, -- dashboard
-      colorizer = true,
-      dashboard = true,
-   },
+M.plugins = "custom.plugins"
 
-   options = {
-      lspconfig = {
-         setup_lspconf = "custom.plugins.lspconfig",
-      },
-   },
-
-   default_plugin_config_replace = {
-      nvim_treesitter = plugin_conf.treesitter,
-      nvim_tree = plugin_conf.nvimtree,
-   },
-
-    install = myPlugins
-}
+-- check core.mappings for table structure
+M.mappings = require "custom.mappings"
 
 return M
