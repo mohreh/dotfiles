@@ -5,8 +5,6 @@ map <PageDown> navigate next
 map b toggle_statusbar
 map [fullscreen] b toggle_statusbar
 map [presentation] b toggle_statusbar
-map f toggle_fullscreen
-map [fullscreen] f toggle_fullscreen
 map [fullscreen] <Left> navigate previous
 map [fullscreen] <Right> navigate next
 
@@ -18,41 +16,43 @@ set font "Ubuntu mono 10"
 set guioptions "vh"
 set highlight-transparency 0.2
 
-set notification-error-bg       "#686868" # base01  # seem not work
-set notification-error-fg       "#EA6C73" # red
-set notification-warning-bg     "#686868" # base01
-set notification-warning-fg     "#EA6C73" # red
-set notification-bg             "#686868" # base01
-set notification-fg             "#F9AF4F" # yellow
+set default-fg                "#CDD6F4"
+set default-bg 			          "#1E1E2E"
 
-set completion-group-bg         "#002b36" # base03
-set completion-group-fg         "#839496" # base0
-set completion-bg               "#0A0E14" # base02
-set completion-fg               "#B3B1AD" # base1
-set completion-highlight-bg     "#686868" # base01
-set completion-highlight-fg     "#fff4e6" # base2
+set completion-bg		          "#313244"
+set completion-fg		          "#CDD6F4"
+set completion-highlight-bg	  "#575268"
+set completion-highlight-fg	  "#CDD6F4"
+set completion-group-bg		    "#313244"
+set completion-group-fg		    "#89B4FA"
 
-set index-bg                   "#0A0E14" # base02
-set index-fg                   "#B3B1AD" # base1
-set index-active-bg             "#686868" # base01
-set index-active-fg             "#fff4e6" # base2
+set statusbar-fg		          "#CDD6F4"
+set statusbar-bg		          "#313244"
 
-set inputbar-bg                 "#686868" # base01
-set inputbar-fg                 "#fff4e6" # base2
+set notification-bg		        "#313244"
+set notification-fg		        "#CDD6F4"
+set notification-error-bg	    "#313244"
+set notification-error-fg	    "#F38BA8"
+set notification-warning-bg	  "#313244"
+set notification-warning-fg	  "#FAE3B0"
 
-set statusbar-bg                "#0A0E14" # base02
-set statusbar-fg                "#B3B1AD" # base1
+set inputbar-fg			          "#CDD6F4"
+set inputbar-bg 		          "#313244"
 
-set highlight-color             "#657b83" # base00  # hightlight match when search keyword(vim's /)
-set highlight-active-color      "#268bd2" # blue
+set recolor-lightcolor		    "#1E1E2E"
+set recolor-darkcolor		      "#CDD6F4"
 
-set default-bg                  "#0A0E14" # base02
-set default-fg                  "#B3B1AD" # base1
-# set render-loading              true
-# set render-loading-fg           "#0A0E14" # base02
-# set render-loading-bg           "#0A0E14" # base02
+set index-fg			            "#CDD6F4"
+set index-bg			            "#1E1E2E"
+set index-active-fg		        "#CDD6F4"
+set index-active-bg		        "#313244"
+
+set render-loading-bg		      "#1E1E2E"
+set render-loading-fg		      "#CDD6F4"
+
+set highlight-color		        "#575268"
+set highlight-fg              "#F5C2E7"
+set highlight-active-color	  "#F5C2E7"
 
 set recolor                     true
-set recolor-lightcolor          "#0A0E14" # base02
-set recolor-darkcolor           "#B3B1AD" # base1
-# set recolor-keephue             true      # keep original color
+set recolor-keephue             true      # keep original color
