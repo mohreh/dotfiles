@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -81,7 +83,7 @@ plugins=(
   sudo
   history
   emoji
-  web-search
+  # web-search
   copypath
   copyfile
   dirhistory
@@ -121,6 +123,8 @@ alias ll='exa -l --icons'
 alias ld='exa -lD --icons'
 alias la='exa -al --icons'
 alias ze='zellij'
+alias tb='taskbook'
+alias hx='helix'
 
 ZSH_WEB_SEARCH_ENGINES=(
     search 'https://search.brave.com/search?q='
@@ -138,3 +142,31 @@ LF_ICONS=${LF_ICONS//$'\n'/:}
 export LF_ICONS
 
 export STARSHIP_CONFIG=~/.config/starship.toml
+
+# bun completions
+[ -s "/home/libertin/.bun/_bun" ] && source "/home/libertin/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+# pnpm
+export PNPM_HOME="/home/libertin/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+alias uce='USE_CUSTOM_ENV=1 zsh'
+if [[ "${USE_CUSTOM_ENV}" == "1" ]]; then
+        alias a='stuff I need in this context'
+        alias x='exit'
+        ...
+
+        PROMPT="${PROMPT}%{$terminfo[bold]$fg[red]%}[CUSTOM_ENV] %{$reset_color%}"
+        my_prog option1 option2
+fi
