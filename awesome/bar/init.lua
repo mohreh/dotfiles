@@ -12,7 +12,7 @@ local logout = require("bar.widgets.logout-menu")
 -- local systray_margin = wibox.layout.margin()
 -- systray_margin:set_margins(5)
 -- systray_margin:set_widget(systray)
-
+--
 local widgets = require("widgets")
 -- local volume_widget = require("bar.widgets.volume-widget.volume")
 local volume_widget = widgets.volume_widget
@@ -50,7 +50,7 @@ awful.screen.connect_for_each_screen(function(s)
   -- Create a taglist widget
   s.taglist = require("bar.taglist")(s)
 
-  s.layoutbox = wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(4.5), dpi(4.5))
+  s.layoutbox = wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(5), dpi(5))
 
   -- Create a tasklist widget
   s.tasklist = require("bar.tasklist")(s)
@@ -79,10 +79,10 @@ awful.screen.connect_for_each_screen(function(s)
     {
       layout = wibox.layout.fixed.horizontal,
       wibox.layout.margin(kbdcfg.widget, dpi(5), dpi(0), dpi(3), dpi(3)),
-      wibox.layout.margin(volume_widget({ widget_type = "icon" }), dpi(5), dpi(5), dpi(3), dpi(5)),
-      wibox.layout.margin(wibox.widget.systray(), dpi(5), dpi(5), dpi(5), dpi(5)),
-      wibox.layout.margin(logout(), dpi(5), dpi(5), dpi(5), dpi(5)),
-      wibox.layout.margin(require("bar.widgets.calendar").create(s), dpi(5), dpi(5), dpi(0), dpi(0)),
+      wibox.layout.margin(volume_widget({ widget_type = "arc" }), dpi(0), dpi(0), dpi(6), dpi(6)),
+      wibox.layout.margin(wibox.widget.systray(), dpi(0), dpi(0), dpi(0), dpi(0)),
+      wibox.layout.margin(logout(), dpi(5), dpi(0), dpi(0), dpi(0)),
+      wibox.layout.margin(require("bar.widgets.calendar").create(s), dpi(0), dpi(0), dpi(0), dpi(0)),
       wibox.container.margin(awful.widget.layoutbox(s), dpi(5), dpi(5), dpi(5), dpi(5)),
     },
   })

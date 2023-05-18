@@ -19,17 +19,17 @@ local logout_menu_widget = wibox.widget({
   {
     {
       -- image = ICON_DIR .. 'power.svg',
-      -- resize = true,
+      resize = true,
       -- markup = "",
-      markup = "⏼",
-      font = "Ubuntu Mono 15.5",
+      markup = "⏼ ",
+      font = "Ubuntu Mono 10",
       widget = wibox.widget.textbox,
     },
     margins = 0,
     layout = wibox.container.margin,
   },
   shape = function(cr, width, height)
-    gears.shape.rounded_rect(cr, width, height, 4)
+    gears.shape.rounded_rect(cr, width, height, 0)
   end,
   widget = wibox.container.background,
 })

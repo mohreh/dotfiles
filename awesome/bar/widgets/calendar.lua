@@ -9,10 +9,10 @@
 -- Initialization
 -- ===================================================================
 
-local awful = require("awful")
-local gears = require("gears")
-local wibox = require("wibox")
-local beautiful = require("beautiful")
+local awful = require "awful"
+local gears = require "gears"
+local wibox = require "wibox"
+local beautiful = require "beautiful"
 local dpi = beautiful.xresources.apply_dpi
 
 local calendar = {}
@@ -46,7 +46,7 @@ calendar.create = function(screen)
   end
 
   -- Calendar Widget
-  local month_calendar = awful.widget.calendar_popup.month({
+  local month_calendar = awful.widget.calendar_popup.month {
     screen = screen,
     start_sunday = true,
     spacing = 12,
@@ -58,7 +58,7 @@ calendar.create = function(screen)
     style_weekday = { border_width = 0, bg_color = "#00000000" },
     style_normal = { border_width = 0, bg_color = "#00000000" },
     style_focus = { border_width = 0, bg_color = beautiful.bg_urgent, fg_color = beautiful.fg_urgent },
-  })
+  }
 
   -- Attach calentar to clock_widget
   month_calendar:attach(clock_widget, "tr", { on_pressed = true, on_hover = true })

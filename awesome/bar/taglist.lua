@@ -1,9 +1,9 @@
 return function(s)
-  local awful = require("awful")
-  local gears = require("gears")
-  local wibox = require("wibox")
+  local awful = require "awful"
+  local gears = require "gears"
+  local wibox = require "wibox"
 
-  return awful.widget.taglist({
+  return awful.widget.taglist {
     screen = s,
     filter = awful.widget.taglist.filter.all,
     buttons = gears.table.join(
@@ -33,5 +33,5 @@ return function(s)
       spacing = 4,
       layout = wibox.layout.fixed.horizontal,
     },
-  })
+  }
 end

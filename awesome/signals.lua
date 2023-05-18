@@ -1,7 +1,7 @@
-local awful = require("awful")
-local beautiful = require("beautiful")
-local gears = require("gears")
-local wibox = require("wibox")
+local awful = require "awful"
+local beautiful = require "beautiful"
+local gears = require "gears"
+local wibox = require "wibox"
 
 -- {{{ Signals
 -- Signal function to execute when a new client appears.
@@ -30,7 +30,7 @@ client.connect_signal("request::titlebars", function(c)
     end)
   )
 
-  awful.titlebar(c):setup({
+  awful.titlebar(c):setup {
     {
       -- Left
       awful.titlebar.widget.iconwidget(c),
@@ -57,7 +57,7 @@ client.connect_signal("request::titlebars", function(c)
       layout = wibox.layout.fixed.horizontal(),
     },
     layout = wibox.layout.align.horizontal,
-  })
+  }
 end)
 
 -- Enable sloppy focus, so that focus follows mouse.

@@ -1,10 +1,10 @@
 return function(s)
-  local awful = require("awful")
-  local gears = require("gears")
-  local wibox = require("wibox")
-  local beautiful = require("beautiful")
+  local awful = require "awful"
+  local gears = require "gears"
+  local wibox = require "wibox"
+  local beautiful = require "beautiful"
 
-  return awful.widget.tasklist({
+  return awful.widget.tasklist {
     screen = s,
     filter = awful.widget.tasklist.filter.currenttags,
     buttons = gears.table.join(
@@ -16,7 +16,7 @@ return function(s)
         end
       end),
       awful.button({}, 3, function()
-        awful.menu.client_list({ theme = { width = 250 } })
+        awful.menu.client_list { theme = { width = 250 } }
       end),
       awful.button({}, 4, function()
         awful.client.focus.byidx(1)
@@ -85,5 +85,5 @@ return function(s)
       id = "background_role",
       widget = wibox.container.background,
     },
-  })
+  }
 end

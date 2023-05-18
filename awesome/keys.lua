@@ -12,7 +12,7 @@ local volume_widget = widgets.volume_widget
 
 -- Get Song Info
 local bling = require("bling")
-local playerctl = bling.signal.playerctl.lib()
+-- local playerctl = bling.signal.playerctl.lib()
 
 -- }}}
 
@@ -118,11 +118,11 @@ globalkeys = gears.table.join(
   -- Rofi
   awful.key({ modkey }, "r", function()
     -- awful.screen.focused().mypromptbox:run()
-    awful.util.spawn("/home/mrh/.config/rofi/launcher.sh")
+    awful.util.spawn("/home/libertin/.config/rofi/launcher.sh")
   end, { description = "run rofi", group = "launcher" }),
   awful.key({ modkey }, "c", function()
     -- awful.screen.focused().mypromptbox:run()
-    awful.util.spawn("/home/mrh/.config/rofi/clipboard.sh")
+    awful.util.spawn("/home/libertin/.config/rofi/clipboard.sh")
   end, { description = "run rofi-greenclip", group = "launcher" }),
   -- Firefox developer edition
   awful.key({ modkey }, "b", function()
@@ -158,19 +158,19 @@ globalkeys = gears.table.join(
   awful.key({}, "XF86AudioLowerVolume", function()
     awful.util.spawn("amixer sset Master 5%-")
     volume_widget:dec(5)
-  end, { description = "Decrease Volume", group = "Sound" }),
-  awful.key({}, "XF86AudioNext", function()
-    playerctl:next()
-  end, { description = "Next track", group = "Sound" }),
-  awful.key({}, "XF86AudioPrev", function()
-    playerctl:previous()
-  end, { description = "Prev track", group = "Sound" }),
-  awful.key({}, "XF86AudioPlay", function()
-    playerctl:play()
-  end, { description = "play track", group = "Sound" }),
-  awful.key({}, "XF86AudioStop", function()
-    playerctl:stop()
-  end, { description = "pause track", group = "Sound" })
+  end, { description = "Decrease Volume", group = "Sound" })
+  -- awful.key({}, "XF86AudioNext", function()
+  --   playerctl:next()
+  -- end, { description = "Next track", group = "Sound" }),
+  -- awful.key({}, "XF86AudioPrev", function()
+  --   playerctl:previous()
+  -- end, { description = "Prev track", group = "Sound" }),
+  -- awful.key({}, "XF86AudioPlay", function()
+  --   playerctl:play()
+  -- end, { description = "play track", group = "Sound" }),
+  -- awful.key({}, "XF86AudioStop", function()
+  --   playerctl:stop()
+  -- end, { description = "pause track", group = "Sound" })
 )
 
 clientkeys = gears.table.join(
